@@ -1,0 +1,70 @@
+{
+  "name": "boilerplate-ts-app",
+  "description": "boilerplate-ts-app",
+  "version": "0.0.1",
+  "author": "cotto",
+  "ava": {
+    "files": [
+      ".compiled/**/*.test.js"
+    ],
+    "verbose": true,
+    "babel": "inherit"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "preact": "^8.1.0",
+    "preact-compat": "^3.16.0"
+  },
+  "devDependencies": {
+    "@cotto/tslint-config": "^0.0.3",
+    "@types/node": "^7.0.15",
+    "@types/sinon": "^2.1.3",
+    "autoprefixer": "^6.7.7",
+    "ava": "^0.19.1",
+    "awesome-typescript-loader": "^3.1.3",
+    "babili-webpack-plugin": "^0.0.11",
+    "css-loader": "^0.28.1",
+    "css-mqpacker": "^5.0.1",
+    "del": "^2.2.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-ejs": "^3.0.1",
+    "gulp-hash-src": "^0.1.6",
+    "gulp-shell": "^0.6.3",
+    "node-sass": "^4.5.2",
+    "npm-run-all": "^4.0.2",
+    "postcss-calc": "^5.3.1",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.2",
+    "postcss-easy-import": "^2.0.0",
+    "postcss-loader": "^1.3.3",
+    "postcss-nested": "^1.0.1",
+    "run-sequence": "^1.2.2",
+    "serve": "^5.1.4",
+    "sinon": "^2.2.0",
+    "style-loader": "^0.17.0",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.4.4",
+    "tslint": "^5.1.0",
+    "typescript": "^2.3.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-merge": "^4.1.0",
+    "webpack-notifier": "^1.5.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "NODE_ENV=development gulp dist:build",
+    "clean": "gulp clean",
+    "prod": "NODE_ENV=production gulp dist:build",
+    "start": "NODE_ENV=development gulp start",
+    "test": "NODE_EVN=test gulp test"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "@cotto/tslint-config"
+    ],
+    "jsRules": {
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "never",
+                "singleline": "never"
+            }
+        ]
+    }
+}
