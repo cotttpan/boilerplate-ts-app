@@ -1,0 +1,13 @@
+{
+    "javascript.validate.enable": true,
+    "eslint.enable": false,
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "files.exclude": {
+        ".awcache": true,
+        "**/dist/**": false,
+        "**/**bundle.**/**": false,
+        "node_modules": true,
+        "typings": false,
+        "**/*.d.ts": false
+    }
+}
